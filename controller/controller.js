@@ -15,7 +15,7 @@ module.exports.login = (req, res) => {
 };
 
 module.exports.dashboard = async (req, res) => {
-    return res.render('dashboard')
+    return res.render('Dashboard')
 };
 
 module.exports.viewadmin = async (req, res) => {
